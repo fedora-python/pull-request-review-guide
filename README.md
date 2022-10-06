@@ -1,5 +1,10 @@
 # Pull Request Review Guide
 
+## The guide
+
+[Pull Request Review Guide](./fedora-pr-review-guide.md)
+
+
 ## :atom_symbol: This process contains a lot of details
 
 This process is a nuclear power plant. We don’t expect casual contributors to follow it.
