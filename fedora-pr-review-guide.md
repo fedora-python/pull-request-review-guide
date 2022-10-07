@@ -18,6 +18,8 @@ Copy & paste to your PR review.
 - [ ] (If it's linked), the right (problem, product) BZ ticket is referenced
 - [ ] (If it's linked), BZ ticket reference is in the correct format in %changelog and/or commit message
 - [ ] (If needed) Release is bumped
+- [ ] (When adding patches) Patch purpose is documented in the specfile
+- [ ] (When backporting patches) Patch origin and/or authorship is traceable
 ```
 
 ## As a submitter of Pull Request (PR)
@@ -74,6 +76,17 @@ Copy & paste to your PR review.
     - Set it to ASSIGNED (and *take* it) when you start working on it
     - Put the link to the PR in the BZ once it exists (even WIP), set the status to POST
 
+### Patches
+
+- If your PR adds new patches (or significantly reworks some patches):
+  - Properly document the purpose of the patch in the specfile.
+    Detailed commit messages in the patches are good,
+    but a person who will read the spec should not need to open the patch to figure out what it is for.
+  - If you backport patches (e.g. from upstream)
+    - Make sure the authorship and/or origin of the patch is well traceable.
+      - Don't replace/strip the original git author information from a backported commit,
+        use a git-formatted patch with commit message and author.
+      - Link to the upstream commits/PRs the patch is derived from.
 
 ## As a PR reviewer
 
