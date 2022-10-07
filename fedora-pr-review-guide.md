@@ -79,7 +79,7 @@ Copy & paste to your PR review.
 ### Patches
 
 - If your PR adds new patches (or significantly reworks some patches):
-  - Properly document the purpose of the patch in the specfile.
+  - Document the purpose of the patch in the specfile.
     Detailed commit messages in the patches are good,
     but a person who will read the spec should not need to open the patch to figure out what it is for.
   - If you backport patches (e.g. from upstream)
