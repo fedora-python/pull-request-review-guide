@@ -86,6 +86,11 @@ Copy & paste to your PR review.
     - Make sure the authorship and/or origin of the patch is well traceable.
       - Don't replace/strip the original git author information from a backported commit,
         use a git-formatted patch with commit message and author.
+        You can use `git cherry-pick` or `git am` to apply/rebase your patch if needed
+        and `git format-patch` to create a patch file with the original authorship information.
+        If you create the patch from scratch, you can use `git commit --author="John Doe <john@doe.com>"`.
+        When multiple patches are mereged together and you need to list more authors,
+        you can add `Co-Authored-By: John Doe <john@doe.com>` to the commit message (multiple times).
       - Link to the upstream commits/PRs the patch is derived from.
 
 ## As a PR reviewer
