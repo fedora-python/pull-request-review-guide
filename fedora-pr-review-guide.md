@@ -9,6 +9,7 @@ Copy & paste to your PR review.
 ```
 - [ ] PR solves the issue it claims to address (updates the package, solves a bug, etc.)
 - [ ] Resulting RPM package is installable on the destination Fedora release
+- [ ] No dependent RPM packages will stop being installable when the PR is merged and built
 - [ ] PR is tested sufficiently and the test results are OK (green CI, impact check issues addressed)
 - [ ] PR is open against all relevant Fedora releases
 - [ ] (If PR is open against more Fedora releases) branches don't diverge unnecessarily
