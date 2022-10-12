@@ -95,7 +95,7 @@ Copy & paste to your PR review.
         you can add `Co-Authored-By: John Doe <john@doe.com>` to the commit message (multiple times).
       - Link to the upstream commits/PRs the patch is derived from.
   - If you create patches from scratch (e.g. to fix an issue)
-    - Patches should ideally be proposed upstream (and a link to the PR should be in the patch-related comment).
+    - Patches should ideally be proposed upstream (and a link to the PR should be in the spec).
     - Patches that are deliberately downstream-only should be justified as such.
       - For example, explain in the comment that this is only needed becasue Fedora does ... differently.
 
