@@ -97,7 +97,7 @@ Copy & paste to your PR review.
   - If you create patches from scratch (e.g. to fix an issue)
     - Patches should ideally be proposed upstream (and a link to the PR should be in the spec).
     - Patches that are deliberately downstream-only should be justified as such.
-      - For example, explain in the comment that this is only needed becasue Fedora does ... differently.
+      - For example, explain in the comment that this is only needed because Fedora does ... differently.
 
 ## As a PR reviewer
 
