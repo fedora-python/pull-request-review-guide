@@ -21,6 +21,7 @@ Copy & paste to your PR review.
 - [ ] (If needed) Release is bumped
 - [ ] (When adding patches) Patch purpose is documented in the specfile
 - [ ] (When backporting patches) Patch origin and/or authorship is traceable
+- [ ] (When creating patches from scratch) The patch is proposed upstream or justified as downstream-only
 ```
 
 ## As a submitter of Pull Request (PR)
@@ -93,6 +94,10 @@ Copy & paste to your PR review.
         When multiple patches are mereged together and you need to list more authors,
         you can add `Co-Authored-By: John Doe <john@doe.com>` to the commit message (multiple times).
       - Link to the upstream commits/PRs the patch is derived from.
+  - If you create patches from scratch (e.g. to fix an issue)
+    - Patches should ideally be proposed upstream (and a link to the PR should be in the spec).
+    - Patches that are deliberately downstream-only should be justified as such.
+      - For example, explain in the comment that this is only needed becasue Fedora does ... differently.
 
 ## As a PR reviewer
 
